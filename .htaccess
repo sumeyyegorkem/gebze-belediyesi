@@ -1,0 +1,15 @@
+# 403/404/500/503 hata sayfaları (bkz. sistem/ klasöründeki 403.php, 404.php, 500.php, 503.php)
+ErrorDocument 403 /gebze-belediyesi/sistem/403.php
+ErrorDocument 404 /gebze-belediyesi/sistem/404.php
+ErrorDocument 500 /gebze-belediyesi/sistem/500.php
+ErrorDocument 503 /gebze-belediyesi/sistem/503.php
+
+# Bakım Modu: config/bakim.lock dosyası varsa (admin panelinden "Bakım Modu"
+# üzerinden açılıp kapatılır), admin paneli ve statik dosyalar hariç tüm
+# istekler sistem/bakim.php'ye yönlendirilir.
+RewriteEngine On
+RewriteCond %{DOCUMENT_ROOT}/gebze-belediyesi/config/bakim.lock -f
+RewriteCond %{REQUEST_URI} !^/gebze-belediyesi/admin/
+RewriteCond %{REQUEST_URI} !^/gebze-belediyesi/(css|js|img|uploads)/
+RewriteCond %{REQUEST_URI} !^/gebze-belediyesi/sistem/bakim\.php$
+RewriteRule ^ /gebze-belediyesi/sistem/bakim.php [L]
