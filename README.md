@@ -1,6 +1,6 @@
 # Gebze Belediyesi Web Sitesi
 
-Gebze Belediyesi'nin resmi web sitesinin, staj/eğitim amaçlı olarak yeniden tasarlanıp geliştirilmesi projesi. Bu depo, ziyaretçi tarafındaki (frontend) siteyi içerir. İçeriğin yönetildiği **Admin Panel**, kendi başına çalışan ayrı bir depodadır: [gebze-belediyesi-admin](https://github.com/KULLANICI_ADIN/gebze-belediyesi-admin)
+Gebze Belediyesi'nin resmi web sitesinin, staj/eğitim amaçlı olarak yeniden tasarlanıp geliştirilmesi projesi. Bu depo, ziyaretçi tarafındaki (frontend) siteyi içerir. İçeriğin yönetildiği **Admin Panel**, kendi başına çalışan ayrı bir depodadır: [gebze-belediyesi-admin](https://github.com/sumeyyegorkem/gebze-belediyesi-admin)
 
 ## 📋 Proje Hakkında
 
@@ -42,7 +42,7 @@ gebze-belediyesi/
 2. Bu depoyu `htdocs` klasörüne klonlayın:
    ```
    cd C:\xampp\htdocs
-   git clone https://github.com/KULLANICI_ADIN/gebze-belediyesi.git
+   git clone https://github.com/sumeyyegorkem/gebze-belediyesi.git
    ```
 3. `http://localhost/phpmyadmin` adresinden `gebze_belediyesi` adında bir veritabanı oluşturun.
 4. `config/veritabani.sql` dosyasını **İçe Aktar (Import)** sekmesinden içeri aktarın.
@@ -61,7 +61,7 @@ gebze-belediyesi/
 
 ## 🔐 Admin Panel
 
-Bu depo yalnızca ziyaretçi tarafını içerir. İçerik yönetimi (haber/duyuru/etkinlik ekleme, kullanıcı yönetimi, site ayarları vb.) için ayrı ve kendi başına çalışan **[gebze-belediyesi-admin](https://github.com/KULLANICI_ADIN/gebze-belediyesi-admin)** deposuna bakın.
+Bu depo yalnızca ziyaretçi tarafını içerir. İçerik yönetimi (haber/duyuru/etkinlik ekleme, kullanıcı yönetimi, site ayarları vb.) için ayrı ve kendi başına çalışan **[gebze-belediyesi-admin](https://github.com/sumeyyegorkem/gebze-belediyesi-admin)** deposuna bakın.
 
 ## 👥 Ekip
 
