@@ -63,9 +63,9 @@ gebze-belediyesi/
 
 Bu depo yalnızca ziyaretçi tarafını içerir. İçerik yönetimi (haber/duyuru/etkinlik ekleme, kullanıcı yönetimi, site ayarları vb.) için ayrı ve kendi başına çalışan **[gebze-belediyesi-admin](https://github.com/sumeyyegorkem/gebze-belediyesi-admin)** deposuna bakın.
 
-## 👥 Ekip
+## 👥 Üretici
 
-Sümeyye
+Sümeyye Görkem
 
 ## 📝 Notlar
 
